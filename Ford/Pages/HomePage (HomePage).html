@@ -1,0 +1,72 @@
+<style type="text/css">
+#seoHomePageText h1, #seoHomePageText h2, #seoHomePageText h3 {
+	font-family: sans-serif;
+	margin-bottom: 1em;
+	font-size: 20px;
+	font-weight: 900;
+	color: black;
+	margin-left: 0;
+	text-transform: none;
+	font-style: normal;
+}
+
+#seoHomePageText h2, #seoHomePageText h3 {
+	font-size: 17px;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 20px;
+	margin-top: 1.5em;
+}
+
+#seoHomePageText p {
+	font-style: normal;
+	color: black;
+	line-height: 145%;
+	font-size: 15px;
+}
+
+</style>
+<div id="seoHomePageText">
+	<h1><br />Damerow Ford - Your Portland Ford Dealer</h1>
+	<p>If you are looking for a great deal on a new or used Ford in the Portland metro area, you've come to the right place. Located <a href="/HoursAndDirections">just off of Canyon Rd. in Beaverton</a>, Damerow Ford features a wide selection of new Ford vehicles, including the <a href="/models/ford-fiesta">2015 Ford Fiesta</a>, <a href="/models/ford-focus">2015 Ford Focus</a>, and <a href="/models/ford-mustang">2015 Ford Mustang</a>. </p>
+	<p>Of course, we also have a huge selection of Ford trucks. Step into our famous <a href="ford-trucks">Damerow Ford Truck Ranch</a> and you'll find the entire lineup, from the <a href="/models/ford-f150">2015 Ford F-150</a> to the <a href="/models/ford-superdutyf250srw">Ford F-250</a>,and <a href="/models/ford-superdutyf350srw">Ford F-350 Super Duty</a> pickups.</p>
+	<h2>Used Ford Focus, Explorer, F-150 in Portland</h2>
+	<p>Shopping for a used car, truck, or SUV? We have a variety of used makes and models in our lot, so you can find a great vehicle at a great price. <a href="/UsedCars">Search pre-owned vehicles</a> on our website or simply come on by and see for yourself - at Damerow Ford, we're sure to have the perfect used vehicle to suit <em>your</em> lifestyle.<br /></p>
+	<h2>Certified Pre-Owned Vehicles</h2> 
+	<p>Want the best value for a used vehicle? Our <a href="VehicleSearchResults?search=preowned&amp;location=&amp;bodyType=&amp;make=&amp;model=&amp;trim=&amp;minYear=&amp;maxYear=&amp;maxPrice=&amp;certified=yes&amp;miles=">certified pre-owned vehicles</a> come with a full guarantee, so you can walk away confidently, knowing you will be fully covered. All certified pre-owned vehicles come with a detailed vehicle history report, flexible financing options, and thorough multi-point inspection. We even have many <a href="http://www.damerowford.com/VehicleSearchResults?pageContext=VehicleSearch&amp;search=certified&amp;bodyType=All&amp;make=Ford&amp;oneOwner=true&amp;search=used">single-owner vehicles</a> to choose from, guaranteeing you peace of mind.&nbsp;</p>
+	<h2>Parts and Service Department</h2>
+	<p><span style="line-height: 21.75px; font-size: 15px;">At Damerow Ford, we offer a full <a href="%LINKPAGENAME_LandingPage_LINKCONTEXTNAME_%">parts and service department</a> to make sure that your new or used Ford stays finely tuned by trained Ford professionals. <a href="%LINKPAGENAME_ServiceApptForm_LINKCONTEXTNAME_%">Schedule an appointment</a> for expert service by Portland's #1 Ford Dealer, and don't forget to take advantage of our <a href="%LINKPAGENAME_LandingPage_24_LINKCONTEXTNAME_%">auto service coupons</a> so you can save on your next Ford servicing!</span></p>
+	<h2>Come Visit Us!</h2>
+</div>
+<div id="seoHomePageText">
+	<p>Stop in to <a href="/ContactUsForm">test drive your next car today</a>. We're conveniently <a href="/HoursAndDirections">located in Beaverton</a>, with easy access from Hillsboro, Portland, Vancouver, Wilsonville, and beyond. And if you have questions before stopping by, just give us a call at (800) 956-6936 or send us a message.</p>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {     
+    $(".vehicles li.vehicle").each(function(index) {
+        $(this).children("a").attr( "href", ("/models/ford-" + $(this).attr("data-vehicle-model-name" ) ));
+    });
+});
+</script>  
+<style type="text/css">#flexible-dealer-content {
+	/*height: 2125px !important;*/
+}
+.category_sel, .prevSlide, .nextSlide, .tooltip {
+	display: none !important;
+}
+.ifsWrapper div.content {
+	height: 630px !important;
+}
+.ifsWrapper ul.vehicles {
+	width: 100% !important;
+	top: 10px !important;
+}
+.ifsWrapper ul.vehicles li.vehicle {
+	margin: 0 13px 40px;
+}
+.ifsWrapper.flex-width-12.more-item div.theCarousel, .ifsWrapper.more-item div.theCarousel {
+	width: 100%;
+     height: 100%;
+	left: 0px;
+}
+</style>

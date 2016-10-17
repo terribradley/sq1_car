@@ -1,0 +1,110 @@
+/*  dtolaoluwafalemi  strike MSRP values  */
+.vlp .inv-type-new .pricing .msrp .value {text-decoration:line-through;}
+.vdp .inv-type-new.pricing .msrp .price {text-decoration:line-through;}
+/*.footer .ddc-nav > li > a:hover { background-color: #f26619; }*/
+
+
+/* SQ1 CUSTOM CSS */
+
+/* Home Page */
+.ford-direct-chat, #SKYBar-outer-c, #SKYBar-spacer { display: none; }
+.index .ddc-container .max-width { width: 1240px; }
+.index .ddc-container .max-width .ddc-box-3 {  }
+li.model-details-item:hover h4.fullname, div.description span, div.inventory-featured-default > h3 {color: #fffdff;}
+.ddc-row-p3, .ddc-row-black {background-color: #141414;}
+.lower-half {background-color: #3366b1;}
+.ddc-box-1 a {color: #b2c8e6;}
+.button-block-icons a {background-color: #3366b1;}
+.button-block-icons a:hover {background-color: #b2c8e6;text-decoration: none;}
+.stripe-background {background-color: #e5e5e5;margin-bottom: 0;}
+
+/* Search Bar Buttons */
+.inventory-search-facetbrowse.horizontal-facet-browse {height: auto;}
+.inventory-search-facetbrowse .facetbrowse-ajax-form {display: none;}
+.sq-search-headline {color: #ffffff;font-size: 24px;font-family: "Ford Antenna Medium", "Trebuchet MS", sans-serif;margin: 15px 0 -5px;text-align: center;}
+.sq-search-buttons {text-align: center;margin: 15px 0;}
+.sq-search-buttons .sq-button {margin: 0 10px;}
+
+/* Vehicle Search Results */
+.page-bd .ddc-content .content .sq1-vsr-intro {padding: 10px;border-radius: 5px;}
+.page-bd .ddc-content .content .sq1-vsr-intro .testdrive-testimonial {float: right;width: 370px;margin-left: 25px;}
+.page-bd .ddc-content .content .sq1-vsr-intro .testdrive-testimonial img {width: 100%;}
+.page-bd .ddc-content .content .sq1-vsr-intro .testdrive-testimonial .testimonial {font-style: italic;margin-top: 10px;}
+.page-bd .ddc-content .content .sq1-vsr-intro .testdrive-testimonial .attribution {text-align: right;text-transform: uppercase;font-weight: bold;font-size: 13px;}
+.inventory-listing-default .hproduct, .showroom-detail .hproduct, .mycars-favorites .hproduct {background-color: transparent;border: none;border-bottom: 2px solid #e5e5e5;border-radius: 0;box-shadow: none;padding-bottom: 60px;}
+.inventory-listing-default .hproduct .media img, .showroom-detail .hproduct .media img, .mycars-favorites .hproduct .media img {border: none;}
+.inventory-listing-default .hproduct .description dd, .showroom-detail .hproduct .description dd, .mycars-favorites .hproduct .description dd, .label, .ddc-label {color: #626466;}
+.facetmulti-form {background-color: #1b394e;border: solid 1px #1b394e;}
+.facetlist .panel-heading a {color: #fffdff;}
+.facetmulti-form label {color: #e5e5e5;}
+.facetlist {border-top: 1px solid #626466;border-bottom: 1px solid #e5e5e5;}
+.facetmulti-heading, .ddc-pagination, .ddc-pagination-current-page {color: #626466;}
+div.hproduct.auto.ford {padding-bottom: 7%;}
+.badge-in-transit, .mycars-save-btn, .mycars-add-alert-btn, .description > .vin, div.packages, .bonusTag  {display: none !important;}
+.description > .last dd:nth-of-type(2), .description > .last dt:nth-of-type(2) {display: none;}
+.pricing .discount {border-bottom: 1px solid lightgrey;}
+.ddc-checkbox {background-color: grey;position: absolute;bottom: 20px;left: -400px;}
+.compare-submit-link {background-color: green !important;left: -370px !important;top: -28px !important;padding: 10px 6px !important;}
+li.model-details-item:hover h4.fullname, div.description span, div.inventory-featured-default > h3 {color: #3366b1;}
+.windowsticker a {background: none !important;color: #3366b1 !important;text-decoration: none;background-image: none !important;text-align: left;font-weight: bold;font-family: Arial, sans-serif;font-size: 9.0pt;}
+.inventory-listing-default .hproduct .description dd, .showroom-detail .hproduct .description dd, .mycars-favorites .hproduct .description dd {font-weight: normal;}
+.inventory-listing-default .hproduct .description dt {font-weight: bold !important;}
+.incentive-list {width: 24% !important;float: right !important;margin-left: 0 !important;font-size: 5px;}
+li.status {display: none;}
+a.dialog.pointer.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.ddc-btn.ddc-btn-primary {position: absolute;bottom: 14px;right: 160px;background-color: grey;}
+.dialog.video.ddc-btn.ddc-btn-link.ddc-btn-small {font-weight: bold;font-family: Arial, sans-serif;font-size: 9.0pt;text-decoration: none;margin-top: 15px;}
+.ddc-btn-small {padding: 2px;}
+
+/* Vehicle Detail Pages */
+.inventory-detail-tech-specs .title, .inventory-detail-tech-specs strong.value {color: #626466;}
+.inventory-detail-pricing h3.h3, .links-list h3, .inventory-detail-incentives-listing h3, .inventory-detail-pricing .monthlyPayment, .inventory-detail-incentives-listing .manufacturer-incentive {color: #fffdff;}
+.inventory-detail-quick-specs .final-price .spec-label, .inventory-detail-quick-specs .fuel-efficiency .value > span, .inventory-detail-quick-specs .secondary-spec, .inventory-detail-quick-specs li.interiorColor, .inventory-detail-quick-specs li.driveLine, .inventory-detail-quick-specs li.vin, .inventory-detail-quick-specs li.modelCode, .inventory-detail-quick-specs li.transmission, .inventory-detail-quick-specs li.engine span.value + span, .inventory-detail-quick-specs li.stockNumber, .inventory-detail-quick-specs li.odometer {color: #626466;}
+.inventory-detail-pricing .label, .inventory-detail-pricing li span {color: #fffdff;}
+.vdpCTA .ddc-btn-default, .ddc-btn-success {background-image: none;background-color: transparent;}
+.vdpCTA .ddc-btn-default:hover, .ddc-btn-success:hover {background-color: #ccdae3;color: #141414;}
+
+/* Landing Pages */
+.ddc-box-3, .ddc-box, #compareForm .ft, #compareForm .hd {background: transparent;}
+label, .ddc-form-group strong {color: #626466;}
+
+
+/* Sq1 Restyle
+accent blue - #3366b1
+highlight blue - #50a8da
+blu darkness - #425968 (grayish) OR  #1b394e (bluish)
+light blue/hover: #b2c8e6
+body text #626466
+background: #fffdff
+light gray: #e5e5e5
+*/
+
+/* Sitewide Overwrite Styles */
+
+html.background_full_honeycomb body {background: #fffdff;}
+html.background_full_honeycomb body, .page-bd .ddc-content .content .sq1-vsr-intro, .offers-listing h3 a {color: #626466;}
+a, .ddc-pagination > li > a, .ddc-dropdown-menu > li > a, .incentives-search-detail .nav-list li > a, .ddc-nav-stacked > li > a {color: #3366b1;text-decoration: none;}
+a:hover {color: #b2c8e6;text-decoration: underline;}
+.ddc-header {background-color: #fffdff;}
+.header-default .fn {color: #626466;}
+.header-default .adr a {color: #3366b1;}
+.header-default .adr a:hover {color: #b2c8e6;}
+.header-default .tels, .header-default .phone1 {color: #626466;}
+.ddc-navbar-default {background-color: #3366b1;}
+.ddc-navbar-default .ddc-navbar-nav > li > a, .navigation-buttons a, .navigation-buttons a:hover .ui-button-text span {color: #fffdff;}
+.navigation-buttons a: hover {text-decoration: none;}
+.currentPageParent, .ddc-navbar-default .ddc-navbar-nav > .currentPage > a {background-color: #1b394e;color: #fffdff;}
+.ddc-navbar-default .ddc-navbar-nav > li > a:hover, .ddc-navbar-default .ddc-navbar-nav > li > a:focus, .navigation-buttons a:hover, .ddc-navbar-default .ddc-navbar-nav > .open > a, .ddc-navbar-default .ddc-navbar-nav > .open > a:hover, .ddc-navbar-default .ddc-navbar-nav > .open > a:focus {color: #fffdff;background-color: #b2c8e6;text-decoration: none;}
+.ddc-dropdown-menu {background-color: #fffdff;}
+.ddc-navbar-default .ddc-navbar-nav > li > a.inventory-search-form-navigation {padding: 11px 10px 10px;}
+.nav-first.home .homeLink {padding-top: 10px;}
+.lower-footer {padding: 16px 0 52px 0;}
+
+.ddc-btn-default, .ddc-btn-subtle, .comments-listing .yui3-u-1-2 .ddc-btn, .comments-listing .yui3-u-1-2 .featured-compact .view-all-link, .featured-compact .comments-listing .yui3-u-1-2 .view-all-link, .inventory-listing-default .hproduct .has-eprice .ddc-btn-primary, .inventory-listing-default .hproduct .has-eprice .service-coupon-slide .get-offer a, .service-coupon-slide .get-offer .inventory-listing-default .hproduct .has-eprice a, .showroom-detail .hproduct .has-eprice .ddc-btn-primary, .showroom-detail .hproduct .has-eprice .service-coupon-slide .get-offer a, .service-coupon-slide .get-offer .showroom-detail .hproduct .has-eprice a, .mycars-favorites .hproduct .has-eprice .ddc-btn-primary, .mycars-favorites .hproduct .has-eprice .service-coupon-slide .get-offer a, .service-coupon-slide .get-offer .mycars-favorites .hproduct .has-eprice a, .inventory-listing-default .item-compare label, .inventory-listing-default .alert-set label, .showroom-detail .item-compare label, .showroom-detail .alert-set label, .mycars-favorites .item-compare label, .mycars-favorites .alert-set label, .inventory-listing-default .view-incentives, #spins ul .ddc-btn, #spins ul .featured-compact .view-all-link, .featured-compact #spins ul .view-all-link, .ddc-btn-primary, .service-coupon-slide .get-offer a, .ui-button-submit, .inventory-listing-default .hproduct .view-link, .showroom-detail .hproduct .view-link, .mycars-favorites .hproduct .view-link, .windowsticker .ddc-btn-default {background-image: none;background-color: #3366b1;color: #fffdff;border-color: #3366b1;}
+
+.ddc-btn-subtle:hover, .comments-listing .yui3-u-1-2 .ddc-btn:hover, .comments-listing .yui3-u-1-2 .featured-compact .view-all-link:hover, .featured-compact .comments-listing .yui3-u-1-2 .view-all-link:hover, .inventory-listing-default .hproduct .has-eprice .ddc-btn-primary:hover, .inventory-listing-default .hproduct .has-eprice .service-coupon-slide .get-offer a:hover, .service-coupon-slide .get-offer .inventory-listing-default .hproduct .has-eprice a:hover, .showroom-detail .hproduct .has-eprice .ddc-btn-primary:hover, .showroom-detail .hproduct .has-eprice .service-coupon-slide .get-offer a:hover, .service-coupon-slide .get-offer .showroom-detail .hproduct .has-eprice a:hover, .mycars-favorites .hproduct .has-eprice .ddc-btn-primary:hover, .mycars-favorites .hproduct .has-eprice .service-coupon-slide .get-offer a:hover, .service-coupon-slide .get-offer .mycars-favorites .hproduct .has-eprice a:hover, .inventory-listing-default .item-compare label:hover, .inventory-listing-default .alert-set label:hover, .showroom-detail .item-compare label:hover, .showroom-detail .alert-set label:hover, .mycars-favorites .item-compare label:hover, .mycars-favorites .alert-set label:hover, .inventory-listing-default .view-incentives:hover, #spins ul .ddc-btn:hover, #spins ul .featured-compact .view-all-link:hover, .featured-compact #spins ul .view-all-link:hover, .ddc-btn-primary:hover, .service-coupon-slide .get-offer a:hover, .ui-button-submit:hover, .inventory-listing-default .hproduct .view-link:hover, .showroom-detail .hproduct .view-link:hover, .mycars-favorites .hproduct .view-link:hover, .incentives-search-detail .nav-list li > a:hover {background-color: #b2c8e6;color: #fffdff;}
+
+.inventory-listing-default .hproduct .has-eprice .ddc-btn-primary .ui-button-text, .inventory-listing-default .hproduct .has-eprice .service-coupon-slide .get-offer a .ui-button-text, .service-coupon-slide .get-offer .inventory-listing-default .hproduct .has-eprice a .ui-button-text, .showroom-detail .hproduct .has-eprice .ddc-btn-primary .ui-button-text, .showroom-detail .hproduct .has-eprice .service-coupon-slide .get-offer a .ui-button-text, .service-coupon-slide .get-offer .showroom-detail .hproduct .has-eprice a .ui-button-text, .mycars-favorites .hproduct .has-eprice .ddc-btn-primary .ui-button-text, .mycars-favorites .hproduct .has-eprice .service-coupon-slide .get-offer a .ui-button-text, .service-coupon-slide .get-offer .mycars-favorites .hproduct .has-eprice a .ui-button-text {color: #fffdff;}
+
+.ddc-btn-link, .mycars-favorites .hproduct .pricing li span.ui-button-text, .inventory-listing-default .mycars-vlp a, .ddc-btn-link:hover, .mycars-favorites .hproduct .pricing li span.ui-button-text:hover, .inventory-listing-default .mycars-vlp a:hover {color: #3366b1;text-decoration: none;}
+
+.featured-compact .view-all-link, .ddc-form-inline .ui-button-submit, .ddc-navbar-form .ui-button-submit, .model-specific-landing-inventory .view-link, .inventory-search-form-dropdown button {background-color: transparent;border-color: transparent;background-image: none;}
